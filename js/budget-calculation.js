@@ -53,6 +53,10 @@ function getinputFieldValueById(inputFieldId) {
   const inputFieldValueString = inputField.value;
   const inputFieldValue = parseFloat(inputFieldValueString);
   inputField.value = "";
+  if (isNaN(inputFieldValue)) {
+    alert("Must input numbers");
+    return false;
+  }
   return inputFieldValue;
 }
 // calculate total expense
