@@ -78,11 +78,11 @@ document
   .getElementById("calculate-total")
   .addEventListener("click", function () {
     // get the input value
-    const mangerCost = getinputFieldValueById("manager-cost");
+    const managerCost = getinputFieldValueById("manager-cost");
     const coachCost = getinputFieldValueById("coach-cost");
     // get the previous value
     const previousCost = getTextElementValueById("total-expense");
     //total cost of the whole process
-    const total = mangerCost + coachCost + previousCost;
+    const total = managerCost + coachCost + previousCost;
     setTextElementValueById("total", total);
   });
