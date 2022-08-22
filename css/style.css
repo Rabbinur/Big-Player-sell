@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/* banner section css start */
+.banner {
+    width: 100%;
+    background: #000000;
+    padding: 161px 0px;
+
+}
+
+.picture-1 {
+    position: absolute;
+    left: 0;
+    top: 56px;
+}
+
+.picture-2 {
+    position: absolute;
+    top: 80px;
+}
+
+.picture-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    top: 159px;
+}
+
+.picture-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 330px;
+}
+
+.banner-title {
+    color: #FF5E19;
+    font-family: 'Berkshire Swash';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin-bottom: 10px; */
+
+
+}
+
+.banner-text {
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.line {
+    margin-left: 430px;
+
+    margin-top: 13px;
+}
+
+/* banner section css End */
+/* category section css start */
+.category {
+    background: #151515;
+
+    padding: 50px 0px 120px;
+}
+
+/* category section css end */
+.calculate-btn {
+    padding: 10px 115px;
+}
+
+.player-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
