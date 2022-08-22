@@ -56,6 +56,9 @@ function getinputFieldValueById(inputFieldId) {
   if (isNaN(inputFieldValue)) {
     alert("Must input numbers");
     return false;
+  } else if (Math.sign(inputFieldValue) === -1) {
+    alert("Must Input Positive Number");
+    return true;
   }
   return inputFieldValue;
 }
