@@ -17,12 +17,14 @@ for (let button = 0; button < selectButtons.length; button++) {
     //get player names
     count++;
     const playerListName = playerNames[button].innerText;
-    selectButtons[button].setAttribute("disabled", "");
+
     //create a list item
     if (count <= 5) {
       updatePlayerList(playerListName);
+      selectButtons[button].setAttribute("disabled", "");
     } else {
       alert("Player Limit Exceded");
+      count = 5;
     }
   });
 }

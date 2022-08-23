@@ -79,7 +79,16 @@ body {
     bottom: -276px;
 }
 
-.ureg-marker1 {}
+.ureg-marker1 {
+    position: absolute;
+    right: 139px;
+    /* top: 0; */
+    bottom: -355px;
+}
+
+.list-content {
+    padding: 10px 0;
+}
 
 /* banner section css End */
 /* category section css start */
@@ -91,7 +100,7 @@ body {
 
 /* category section css end */
 .calculate-btn {
-    padding: 10px 115px;
+    padding: 10px;
 }
 
 .player-content {
