@@ -71,6 +71,16 @@ body {
     margin-top: 13px;
 }
 
+.ureg-marker {
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    right: 143px;
+    bottom: -276px;
+}
+
+.ureg-marker1 {}
+
 /* banner section css End */
 /* category section css start */
 .category {
